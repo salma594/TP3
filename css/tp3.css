@@ -148,4 +148,9 @@ footer p {
   padding: 10px 0px;
 }
 
+article{
+  display: inline-block;
+  width: 40vw;
+  margin: 48px;
+}
 
