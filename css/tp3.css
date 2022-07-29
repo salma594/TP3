@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    color: black;
+  }
+
+
+  
+  header {
+    padding: 10px;
+    background-color: rgb(47,47, 47);
+    overflow: auto;
+    color: black;
+  }
+
+  h3, 
+nav, 
+ul, 
+nav > ul > li
+{
+    display: inline-block;
+    margin: 0;
+  }
+ 
+  a {
+    text-decoration: none;
+    color: rgb(160, 159, 159);
+    font-size: 1.3em;
+    padding: 8px 15px ;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+  }
+  h3{
+    color: #fff;
+  }
+  h2{
+    color: black;
+  }
+  a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 126, 126);
+    border-top: 2px solid red;
+    border-right: 2px solid red;
+    border-radius: 0px 10px 0px 10px;
+  }
+
+  header>span{
+    float: right;
+  }
+
+  header input{
+    height: 30px;
+    border-radius: 5px;
+  }
+  header input:focus{
+    outline: 1px solid #2ba8bb;
+  }
+
+  header button{
+    background-color: transparent;
+    color: #2ba8bb;
+    border: thin solid #2ba8bb;
+    border-radius: 5px;
+    height: 30px;
+  }
+
+
+ .banner{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 300px;
+ }
+
+ main{
+  margin: 30px;
+ }
+
+ section h2{
+  text-decoration: underline;
+  font-size: 2em;
+ }
+
+ section{
+  display: inline-block;
+  width: 65vw;
+ }
+
+ aside{
+  float: right;
+  border: 2px dashed black;
+  border-radius: 20px;
+  padding: 20px;
+ }
+ aside > h2 {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 3px double red;
+}
+.color-item {
+  background-color: greenyellow;
+}
+
+.bold-item {
+  font-weight: 600;
+}
+
+.last{
+  background-color: yellowgreen;
+}
+
+#firstsection {
+  overflow: auto;
+}
+
+.clearfloat {
+  clear: both;
+}
+
+#img1 {
+  float: left;
+  margin-right: 5px;
+}
+#img2 {
+  float: right;
+  margin-left: 5px;
+}
+
+#secondsection article {
+  width: 42vw;
+  display: inline-block;
+  margin: 15px;
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  background-color: rgb(47, 47, 47);
+
+  color: whitesmoke;
+  height: 40px;
+}
+
+footer p {
+  text-align: center;
+  padding: 10px 0px;
+}
+
